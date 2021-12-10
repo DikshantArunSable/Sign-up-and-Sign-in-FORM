@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="oload()">
+  
+  <header>
+    <h2>Form:</h2>
+  </header>
+
+  <div id="signin-wrapper">
+    <div id="signin" onclick="popup1()">
+      SIGN-IN
+    </div>
+    
+    <div id="signin-form">
+      <form>
+      <input type="text" name="Username" id="username1" value="" placeholder="Username" required/>
+      <input type="password" name="password" id="" value="" placeholder="Password" required/>
+      <br />
+      <button id="signin-bt" onclick="signinbt()">SIGN-IN</button>
+      
+      </form>
+    </div>
+  </div><hr />
+  
+  <div id="signup-wrapper">
+    <div id="signup" onclick="popup2()">
+      SIGN-UP
+    </div>
+    
+    <div id="signup-form">
+      <form >
+        
+      <input type="text" name="Username" id="username2" value="" placeholder="Username" required/>
+      <input type="password" name="password" id="" value="" placeholder="Password" required/>
+      <br />
+      <button id="signup-bt" onclick="signupbt()">SIGN-UP</button>
+      
+      </form>
+    </div>
+  </div>
+  
+  <footer id="footer"></footer>
+
+  <!-- Scripts -->
+  <script src="main.js"></script>
+</body>
+</html>
